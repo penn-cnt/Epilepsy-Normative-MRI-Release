@@ -1,0 +1,12 @@
+# data and generated outputs live outside git (data: Pennsieve; outputs: regenerated)
+data/*
+!data/README.md
+outputs/*
+!outputs/.gitkeep
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# site configuration (copy .env.example)
+.env
